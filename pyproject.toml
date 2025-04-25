@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inspect-gadget"
+version = "0.1.0"
+description = "A simple library to inspect code with timing information"
+authors = [
+    {name = "Alexander Mathiasen", email = "Alexander.Mathiasen@Gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.6"
